@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Translation Prompt",
+    "version": "1.0",
+    "description": "Copy text to translate into Arabic",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.ico"
+    },
+    "permissions": ["clipboardWrite"]
+}
